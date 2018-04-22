@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mobile table example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mobileTable.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/mobileTable.js"></script>
+</head>
+
+<body>
+    <h1>Mobile table example</h1>
+    <div class="mobileTable__wrapper" id="tableContainer">
+        <div class="mobileTable-mobile">
+            <div class="mobileTable-mobile__title">Title #1</div>
+            <div class="mobileTable-mobile__arrows">
+                <span class="mobileTable-mobile__left" id="prevColumn"></span>
+                <span class="mobileTable-mobile__right" id="nextColumn"></span>
+            </div>
+        </div>
+        <table class="mobileTable">
+            <tbody>
+                <tr>
+                    <th class="mobileTable__col mobileTable__col_type1"></th>
+                    <th class="mobileTable__col mobileTable__col_type2 m__visible-col">
+                        <span class="mobileTable__col-title">Title #1</span>
+                    </th>
+                    <th class="mobileTable__col mobileTable__col_type2">
+                        <span class="mobileTable__col-title">Title #2</span>
+                    </th>
+                    <th class="mobileTable__col mobileTable__col_type2 m__active-col">
+                        <span class="mobileTable__col-title">Title #3</span>
+                    </th>
+                    <th class="mobileTable__col mobileTable__col_type2">
+                        <span class="mobileTable__col-title">Title #4</span>
+                    </th>
+                </tr>
+                <tr>
+                    <td class="mobileTable__col mobileTable__col_type1">
+                        <span class="mobileTable__col-about">Text #1</span>
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2 m__visible-col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2 mobileTable__col m__active-col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mobileTable__col mobileTable__col_type1">
+                        <span class="mobileTable__col-about">Text #2</span>
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2 m__visible-col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2 mobileTable__col m__active-col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                    <td class="mobileTable__col mobileTable__col_type2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- #tableContainer -->
+
+</body>
+
+</html>
