@@ -6,11 +6,10 @@
 
 # Вызов функции
 1. (#tableContainer) - айдишник контейнера таблицы.
-2. (10) - секунды, задаём нужное кол-во.
 
 ```javascript
 
-var packagesTable = new MobileTableToggler('#tableContainer', '.kinzaPackages-table__col[data-col="econom"]');
+var mobileTable = new MobileTableToggler('#tableContainer');
 
 ```
 
